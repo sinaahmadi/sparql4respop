@@ -1,0 +1,3066 @@
+
+  :discrimination a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "discrimination"@en ;
+    ontolex:sense :discrimination_sense ;
+    ontolex:denotes wd:Q169207 ;
+    ontolex:denotes <https://it.wikinews.org/wiki/Categoria:Discriminazione> ;
+    dct:subject wd:Q7748 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :discrimination lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :ar_50015 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_50015_sense ;
+    ontolex:writtenRep "تصنيف:تمييز" .
+  :ar_50015_sense ontolex:reference <https://ar.wikinews.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%AA%D9%85%D9%8A%D9%8A%D8%B2> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ar_50015_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ca_96606 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ca> ;
+    ontolex:sense :ca_96606_sense ;
+    ontolex:writtenRep "Categoria:Discriminació" .
+  :ca_96606_sense ontolex:reference <https://ca.wikinews.org/wiki/Categoria:Discriminaci%C3%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ca_96606_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_90138 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_90138_sense ;
+    ontolex:writtenRep "Categoria:Discriminazione" .
+  :it_90138_sense ontolex:reference <https://it.wikinews.org/wiki/Categoria:Discriminazione> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :it_90138_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_35676 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_35676_sense ;
+    ontolex:writtenRep "Categorie:Discriminatie" .
+  :nl_35676_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :nl_35676_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ru_76743 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_76743_sense ;
+    ontolex:writtenRep "Категория:Дискриминация" .
+  :ru_76743_sense ontolex:reference <https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ru_76743_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :gsw_12266 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/gsw> ;
+    ontolex:sense :gsw_12266_sense ;
+    ontolex:writtenRep "Diskriminierung" .
+  :gsw_12266_sense ontolex:reference <https://als.wikipedia.org/wiki/Diskriminierung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :gsw_12266_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ar_87435 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_87435_sense ;
+    ontolex:writtenRep "ميز" .
+  :ar_87435_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D9%85%D9%8A%D8%B2> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ar_87435_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ast_39291 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ast> ;
+    ontolex:sense :ast_39291_sense ;
+    ontolex:writtenRep "Discriminación" .
+  :ast_39291_sense ontolex:reference <https://ast.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ast_39291_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :az_19599 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/az> ;
+    ontolex:sense :az_19599_sense ;
+    ontolex:writtenRep "Diskriminasiya" .
+  :az_19599_sense ontolex:reference <https://az.wikipedia.org/wiki/Diskriminasiya> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :az_19599_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :be-tarask_13205 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/be-tarask> ;
+    ontolex:sense :be-tarask_13205_sense ;
+    ontolex:writtenRep "Дыскрымінацыя" .
+  :be-tarask_13205_sense ontolex:reference <https://be-tarask.wikipedia.org/wiki/%D0%94%D1%8B%D1%81%D0%BA%D1%80%D1%8B%D0%BC%D1%96%D0%BD%D0%B0%D1%86%D1%8B%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :be-tarask_13205_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :be_70731 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/be> ;
+    ontolex:sense :be_70731_sense ;
+    ontolex:writtenRep "Дыскрымінацыя" .
+  :be_70731_sense ontolex:reference <https://be.wikipedia.org/wiki/%D0%94%D1%8B%D1%81%D0%BA%D1%80%D1%8B%D0%BC%D1%96%D0%BD%D0%B0%D1%86%D1%8B%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :be_70731_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :bg_87423 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bg> ;
+    ontolex:sense :bg_87423_sense ;
+    ontolex:writtenRep "Дискриминация" .
+  :bg_87423_sense ontolex:reference <https://bg.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :bg_87423_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :br_69909 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/br> ;
+    ontolex:sense :br_69909_sense ;
+    ontolex:writtenRep "Droukziforc'h" .
+  :br_69909_sense ontolex:reference <https://br.wikipedia.org/wiki/Droukziforc%27h> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :br_69909_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :bs_37499 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bs> ;
+    ontolex:sense :bs_37499_sense ;
+    ontolex:writtenRep "Diskriminacija" .
+  :bs_37499_sense ontolex:reference <https://bs.wikipedia.org/wiki/Diskriminacija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :bs_37499_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ca_57361 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ca> ;
+    ontolex:sense :ca_57361_sense ;
+    ontolex:writtenRep "Discriminació" .
+  :ca_57361_sense ontolex:reference <https://ca.wikipedia.org/wiki/Discriminaci%C3%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ca_57361_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :cs_54022 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/cs> ;
+    ontolex:sense :cs_54022_sense ;
+    ontolex:writtenRep "Diskriminace" .
+  :cs_54022_sense ontolex:reference <https://cs.wikipedia.org/wiki/Diskriminace> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :cs_54022_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :da_54047 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/da> ;
+    ontolex:sense :da_54047_sense ;
+    ontolex:writtenRep "Diskrimination" .
+  :da_54047_sense ontolex:reference <https://da.wikipedia.org/wiki/Diskrimination> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :da_54047_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_72905 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_72905_sense ;
+    ontolex:writtenRep "Diskriminierung" .
+  :de_72905_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :de_72905_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :diq_14248 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/diq> ;
+    ontolex:sense :diq_14248_sense ;
+    ontolex:writtenRep "Diskriminasyon" .
+  :diq_14248_sense ontolex:reference <https://diq.wikipedia.org/wiki/Diskriminasyon> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :diq_14248_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eo_96409 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eo> ;
+    ontolex:sense :eo_96409_sense ;
+    ontolex:writtenRep "Diskriminacio" .
+  :eo_96409_sense ontolex:reference <https://eo.wikipedia.org/wiki/Diskriminacio> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :eo_96409_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_84253 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_84253_sense ;
+    ontolex:writtenRep "Discriminación" .
+  :es_84253_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :es_84253_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :et_94203 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/et> ;
+    ontolex:sense :et_94203_sense ;
+    ontolex:writtenRep "Diskrimineerimine" .
+  :et_94203_sense ontolex:reference <https://et.wikipedia.org/wiki/Diskrimineerimine> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :et_94203_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eu_41571 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eu> ;
+    ontolex:sense :eu_41571_sense ;
+    ontolex:writtenRep "Diskriminazio" .
+  :eu_41571_sense ontolex:reference <https://eu.wikipedia.org/wiki/Diskriminazio> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :eu_41571_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fa_66068 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fa> ;
+    ontolex:sense :fa_66068_sense ;
+    ontolex:writtenRep "تبعیض" .
+  :fa_66068_sense ontolex:reference <https://fa.wikipedia.org/wiki/%D8%AA%D8%A8%D8%B9%DB%8C%D8%B6> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :fa_66068_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fi_58691 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fi> ;
+    ontolex:sense :fi_58691_sense ;
+    ontolex:writtenRep "Syrjintä" .
+  :fi_58691_sense ontolex:reference <https://fi.wikipedia.org/wiki/Syrjint%C3%A4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :fi_58691_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_76984 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_76984_sense ;
+    ontolex:writtenRep "Discrimination" .
+  :fr_76984_sense ontolex:reference <https://fr.wikipedia.org/wiki/Discrimination> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :fr_76984_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :gl_43011 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/gl> ;
+    ontolex:sense :gl_43011_sense ;
+    ontolex:writtenRep "Discriminación" .
+  :gl_43011_sense ontolex:reference <https://gl.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :gl_43011_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :he_46075 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/he> ;
+    ontolex:sense :he_46075_sense ;
+    ontolex:writtenRep "אפליה" .
+  :he_46075_sense ontolex:reference <https://he.wikipedia.org/wiki/%D7%90%D7%A4%D7%9C%D7%99%D7%94> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :he_46075_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hi_87423 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hi> ;
+    ontolex:sense :hi_87423_sense ;
+    ontolex:writtenRep "भेदभाव" .
+  :hi_87423_sense ontolex:reference <https://hi.wikipedia.org/wiki/%E0%A4%AD%E0%A5%87%E0%A4%A6%E0%A4%AD%E0%A4%BE%E0%A4%B5> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :hi_87423_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hr_66961 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hr> ;
+    ontolex:sense :hr_66961_sense ;
+    ontolex:writtenRep "Diskriminacija" .
+  :hr_66961_sense ontolex:reference <https://hr.wikipedia.org/wiki/Diskriminacija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :hr_66961_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hu_58425 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hu> ;
+    ontolex:sense :hu_58425_sense ;
+    ontolex:writtenRep "Diszkrimináció" .
+  :hu_58425_sense ontolex:reference <https://hu.wikipedia.org/wiki/Diszkrimin%C3%A1ci%C3%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :hu_58425_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hy_17973 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hy> ;
+    ontolex:sense :hy_17973_sense ;
+    ontolex:writtenRep "Խտրականություն" .
+  :hy_17973_sense ontolex:reference <https://hy.wikipedia.org/wiki/%D4%BD%D5%BF%D6%80%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :hy_17973_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :id_29811 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/id> ;
+    ontolex:sense :id_29811_sense ;
+    ontolex:writtenRep "Diskriminasi" .
+  :id_29811_sense ontolex:reference <https://id.wikipedia.org/wiki/Diskriminasi> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :id_29811_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_56410 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_56410_sense ;
+    ontolex:writtenRep "Discriminazione" .
+  :it_56410_sense ontolex:reference <https://it.wikipedia.org/wiki/Discriminazione> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :it_56410_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_91444 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_91444_sense ;
+    ontolex:writtenRep "Discriminazione" .
+  :it_91444_sense ontolex:reference <https://it.wikiquote.org/wiki/Discriminazione> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :it_91444_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ja_86712 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_86712_sense ;
+    ontolex:writtenRep "差別" .
+  :ja_86712_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E5%B7%AE%E5%88%A5> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ja_86712_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :jam_14677 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/jam> ;
+    ontolex:sense :jam_14677_sense ;
+    ontolex:writtenRep "Diskriminieshan" .
+  :jam_14677_sense ontolex:reference <https://jam.wikipedia.org/wiki/Diskriminieshan> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :jam_14677_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ka_42535 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ka> ;
+    ontolex:sense :ka_42535_sense ;
+    ontolex:writtenRep "დისკრიმინაცია" .
+  :ka_42535_sense ontolex:reference <https://ka.wikipedia.org/wiki/%E1%83%93%E1%83%98%E1%83%A1%E1%83%99%E1%83%A0%E1%83%98%E1%83%9B%E1%83%98%E1%83%9C%E1%83%90%E1%83%AA%E1%83%98%E1%83%90> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ka_42535_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kk_51755 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kk> ;
+    ontolex:sense :kk_51755_sense ;
+    ontolex:writtenRep "Дискриминация" .
+  :kk_51755_sense ontolex:reference <https://kk.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :kk_51755_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_62815 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_62815_sense ;
+    ontolex:writtenRep "차별" .
+  :ko_62815_sense ontolex:reference <https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B3%84> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ko_62815_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ky_11810 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ky> ;
+    ontolex:sense :ky_11810_sense ;
+    ontolex:writtenRep "Дискриминация" .
+  :ky_11810_sense ontolex:reference <https://ky.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ky_11810_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :la_74238 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/la> ;
+    ontolex:sense :la_74238_sense ;
+    ontolex:writtenRep "Discriminatio" .
+  :la_74238_sense ontolex:reference <https://la.wikipedia.org/wiki/Discriminatio> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :la_74238_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lt_54960 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lt> ;
+    ontolex:sense :lt_54960_sense ;
+    ontolex:writtenRep "Diskriminacija" .
+  :lt_54960_sense ontolex:reference <https://lt.wikipedia.org/wiki/Diskriminacija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :lt_54960_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lv_61050 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lv> ;
+    ontolex:sense :lv_61050_sense ;
+    ontolex:writtenRep "Diskriminācija" .
+  :lv_61050_sense ontolex:reference <https://lv.wikipedia.org/wiki/Diskrimin%C4%81cija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :lv_61050_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :mg_12557 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/mg> ;
+    ontolex:sense :mg_12557_sense ;
+    ontolex:writtenRep "Fanavakavahana" .
+  :mg_12557_sense ontolex:reference <https://mg.wikipedia.org/wiki/Fanavakavahana> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :mg_12557_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :mk_15880 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/mk> ;
+    ontolex:sense :mk_15880_sense ;
+    ontolex:writtenRep "Дискриминација" .
+  :mk_15880_sense ontolex:reference <https://mk.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D0%B0> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :mk_15880_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :mn_43351 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/mn> ;
+    ontolex:sense :mn_43351_sense ;
+    ontolex:writtenRep "Ялгаварлан гадуурхалт" .
+  :mn_43351_sense ontolex:reference <https://mn.wikipedia.org/wiki/%D0%AF%D0%BB%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%BB%D0%B0%D0%BD_%D0%B3%D0%B0%D0%B4%D1%83%D1%83%D1%80%D1%85%D0%B0%D0%BB%D1%82> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :mn_43351_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ms_60756 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ms> ;
+    ontolex:sense :ms_60756_sense ;
+    ontolex:writtenRep "Diskriminasi" .
+  :ms_60756_sense ontolex:reference <https://ms.wikipedia.org/wiki/Diskriminasi> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ms_60756_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :my_41980 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/my> ;
+    ontolex:sense :my_41980_sense ;
+    ontolex:writtenRep "ခွဲခြားဆက်ဆံခြင်း" .
+  :my_41980_sense ontolex:reference <https://my.wikipedia.org/wiki/%E1%80%81%E1%80%BD%E1%80%B2%E1%80%81%E1%80%BC%E1%80%AC%E1%80%B8%E1%80%86%E1%80%80%E1%80%BA%E1%80%86%E1%80%B6%E1%80%81%E1%80%BC%E1%80%84%E1%80%BA%E1%80%B8> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :my_41980_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_46950 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_46950_sense ;
+    ontolex:writtenRep "Discriminatie" .
+  :nl_46950_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :nl_46950_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_96559 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_96559_sense ;
+    ontolex:writtenRep "Forskjellsbehandling" .
+  :nb_96559_sense ontolex:reference <https://no.wikipedia.org/wiki/Forskjellsbehandling> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :nb_96559_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :oc_72740 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/oc> ;
+    ontolex:sense :oc_72740_sense ;
+    ontolex:writtenRep "Discriminacion" .
+  :oc_72740_sense ontolex:reference <https://oc.wikipedia.org/wiki/Discriminacion> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :oc_72740_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pa_14945 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pa> ;
+    ontolex:sense :pa_14945_sense ;
+    ontolex:writtenRep "ਵਿਤਕਰਾ" .
+  :pa_14945_sense ontolex:reference <https://pa.wikipedia.org/wiki/%E0%A8%B5%E0%A8%BF%E0%A8%A4%E0%A8%95%E0%A8%B0%E0%A8%BE> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :pa_14945_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_91389 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_91389_sense ;
+    ontolex:writtenRep "Dyskryminacja (psychologia społeczna)" .
+  :pl_91389_sense ontolex:reference <https://pl.wikipedia.org/wiki/Dyskryminacja_(psychologia_spo%C5%82eczna)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :pl_91389_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pt_39404 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pt> ;
+    ontolex:sense :pt_39404_sense ;
+    ontolex:writtenRep "Discriminação" .
+  :pt_39404_sense ontolex:reference <https://pt.wikipedia.org/wiki/Discrimina%C3%A7%C3%A3o> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :pt_39404_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :rmy_29325 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/rmy> ;
+    ontolex:sense :rmy_29325_sense ;
+    ontolex:writtenRep "Diskriminaciya" .
+  :rmy_29325_sense ontolex:reference <https://rmy.wikipedia.org/wiki/Diskriminaciya> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :rmy_29325_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_13949 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_13949_sense ;
+    ontolex:writtenRep "Discriminare" .
+  :ro_13949_sense ontolex:reference <https://ro.wikipedia.org/wiki/Discriminare> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ro_13949_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ru_42864 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_42864_sense ;
+    ontolex:writtenRep "Дискриминация" .
+  :ru_42864_sense ontolex:reference <https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ru_42864_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sh_29842 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sh> ;
+    ontolex:sense :sh_29842_sense ;
+    ontolex:writtenRep "Diskriminacija" .
+  :sh_29842_sense ontolex:reference <https://sh.wikipedia.org/wiki/Diskriminacija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sh_29842_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :en-simple_86877 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/en-simple> ;
+    ontolex:sense :en-simple_86877_sense ;
+    ontolex:writtenRep "Discrimination" .
+  :en-simple_86877_sense ontolex:reference <https://simple.wikipedia.org/wiki/Discrimination> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :en-simple_86877_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sk_32523 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sk> ;
+    ontolex:sense :sk_32523_sense ;
+    ontolex:writtenRep "Diskriminácia (znevýhodňovanie)" .
+  :sk_32523_sense ontolex:reference <https://sk.wikipedia.org/wiki/Diskrimin%C3%A1cia_(znev%C3%BDhod%C5%88ovanie)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sk_32523_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sl_93944 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sl> ;
+    ontolex:sense :sl_93944_sense ;
+    ontolex:writtenRep "Diskriminacija" .
+  :sl_93944_sense ontolex:reference <https://sl.wikipedia.org/wiki/Diskriminacija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sl_93944_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sq_98103 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sq> ;
+    ontolex:sense :sq_98103_sense ;
+    ontolex:writtenRep "Diskriminimi" .
+  :sq_98103_sense ontolex:reference <https://sq.wikipedia.org/wiki/Diskriminimi> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sq_98103_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sr_70197 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sr> ;
+    ontolex:sense :sr_70197_sense ;
+    ontolex:writtenRep "Дискриминација" .
+  :sr_70197_sense ontolex:reference <https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D0%B0> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sr_70197_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_49599 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_49599_sense ;
+    ontolex:writtenRep "Diskriminering" .
+  :sv_49599_sense ontolex:reference <https://sv.wikipedia.org/wiki/Diskriminering> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :sv_49599_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ta_80496 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ta> ;
+    ontolex:sense :ta_80496_sense ;
+    ontolex:writtenRep "பாகுபாடு" .
+  :ta_80496_sense ontolex:reference <https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ta_80496_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :tr_48748 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/tr> ;
+    ontolex:sense :tr_48748_sense ;
+    ontolex:writtenRep "Ayrımcılık" .
+  :tr_48748_sense ontolex:reference <https://tr.wikipedia.org/wiki/Ayr%C4%B1mc%C4%B1l%C4%B1k> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :tr_48748_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :uk_92576 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/uk> ;
+    ontolex:sense :uk_92576_sense ;
+    ontolex:writtenRep "Дискримінація" .
+  :uk_92576_sense ontolex:reference <https://uk.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D1%96%D0%BD%D0%B0%D1%86%D1%96%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :uk_92576_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :uz_84394 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/uz> ;
+    ontolex:sense :uz_84394_sense ;
+    ontolex:writtenRep "Diskriminatsiya" .
+  :uz_84394_sense ontolex:reference <https://uz.wikipedia.org/wiki/Diskriminatsiya> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :uz_84394_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :vi_39128 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/vi> ;
+    ontolex:sense :vi_39128_sense ;
+    ontolex:writtenRep "Phân biệt đối xử" .
+  :vi_39128_sense ontolex:reference <https://vi.wikipedia.org/wiki/Ph%C3%A2n_bi%E1%BB%87t_%C4%91%E1%BB%91i_x%E1%BB%AD> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :vi_39128_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :vls_42471 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/vls> ;
+    ontolex:sense :vls_42471_sense ;
+    ontolex:writtenRep "Discriminoatie" .
+  :vls_42471_sense ontolex:reference <https://vls.wikipedia.org/wiki/Discriminoatie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :vls_42471_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :yi_82094 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/yi> ;
+    ontolex:sense :yi_82094_sense ;
+    ontolex:writtenRep "דיסקרימינאציע" .
+  :yi_82094_sense ontolex:reference <https://yi.wikipedia.org/wiki/%D7%93%D7%99%D7%A1%D7%A7%D7%A8%D7%99%D7%9E%D7%99%D7%A0%D7%90%D7%A6%D7%99%D7%A2> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :yi_82094_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :yue_75834 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/yue> ;
+    ontolex:sense :yue_75834_sense ;
+    ontolex:writtenRep "歧視" .
+  :yue_75834_sense ontolex:reference <https://zh-yue.wikipedia.org/wiki/%E6%AD%A7%E8%A6%96> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :yue_75834_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_61595 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_61595_sense ;
+    ontolex:writtenRep "歧視" .
+  :zh_61595_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E6%AD%A7%E8%A6%96> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :zh_61595_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_81636 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_81636_sense ;
+    ontolex:writtenRep "歧視" .
+  :zh_81636_sense ontolex:reference <https://zh.wikiquote.org/wiki/%E6%AD%A7%E8%A6%96> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :zh_81636_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kn_64395 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kn> ;
+    ontolex:sense :kn_64395_sense ;
+    ontolex:writtenRep "ತಾರತಮ್ಯ" .
+  :kn_64395_sense ontolex:reference <https://kn.wikipedia.org/wiki/%E0%B2%A4%E0%B2%BE%E0%B2%B0%E0%B2%A4%E0%B2%AE%E0%B3%8D%E0%B2%AF> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :kn_64395_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ckb_56362 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ckb> ;
+    ontolex:sense :ckb_56362_sense ;
+    ontolex:writtenRep "دووچاوەکی" .
+  :ckb_56362_sense ontolex:reference <https://ckb.wikipedia.org/wiki/%D8%AF%D9%88%D9%88%DA%86%D8%A7%D9%88%DB%95%DA%A9%DB%8C> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :discrimination_sense ;
+   vartrans:target :ckb_56362_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :harassment a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "harassment"@en ;
+    ontolex:sense :harassment_sense ;
+    ontolex:denotes wd:Q3240539 ;
+    ontolex:denotes <https://it.wikipedia.org/wiki/Molestia> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :harassment lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :it_60914 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_60914_sense ;
+    ontolex:writtenRep "Molestia" .
+  :it_60914_sense ontolex:reference <https://it.wikipedia.org/wiki/Molestia> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :it_60914_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ar_10923 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_10923_sense ;
+    ontolex:writtenRep "تحرش" .
+  :ar_10923_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D8%AA%D8%AD%D8%B1%D8%B4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :ar_10923_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :bn_11521 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bn> ;
+    ontolex:sense :bn_11521_sense ;
+    ontolex:writtenRep "হয়রানি" .
+  :bn_11521_sense ontolex:reference <https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :bn_11521_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :cv_25055 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/cv> ;
+    ontolex:sense :cv_25055_sense ;
+    ontolex:writtenRep "Харрасмент" .
+  :cv_25055_sense ontolex:reference <https://cv.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D1%80%D0%B0%D1%81%D0%BC%D0%B5%D0%BD%D1%82> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :cv_25055_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :da_14442 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/da> ;
+    ontolex:sense :da_14442_sense ;
+    ontolex:writtenRep "Chikane (samfund)" .
+  :da_14442_sense ontolex:reference <https://da.wikipedia.org/wiki/Chikane_(samfund)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :da_14442_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :el_44574 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/el> ;
+    ontolex:sense :el_44574_sense ;
+    ontolex:writtenRep "Παρενόχληση" .
+  :el_44574_sense ontolex:reference <https://el.wikipedia.org/wiki/%CE%A0%CE%B1%CF%81%CE%B5%CE%BD%CF%8C%CF%87%CE%BB%CE%B7%CF%83%CE%B7> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :el_44574_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_67706 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_67706_sense ;
+    ontolex:writtenRep "Hostigamiento" .
+  :es_67706_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :es_67706_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ja_66171 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_66171_sense ;
+    ontolex:writtenRep "嫌がらせ" .
+  :ja_66171_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E5%AB%8C%E3%81%8C%E3%82%89%E3%81%9B> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :ja_66171_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kn_75512 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kn> ;
+    ontolex:sense :kn_75512_sense ;
+    ontolex:writtenRep "ಕಿರುಕುಳ" .
+  :kn_75512_sense ontolex:reference <https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B2%BF%E0%B2%B0%E0%B3%81%E0%B2%95%E0%B3%81%E0%B2%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :kn_75512_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_13635 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_13635_sense ;
+    ontolex:writtenRep "괴롭힘" .
+  :ko_13635_sense ontolex:reference <https://ko.wikipedia.org/wiki/%EA%B4%B4%EB%A1%AD%ED%9E%98> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :ko_13635_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_90969 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_90969_sense ;
+    ontolex:writtenRep "Trakassering" .
+  :nb_90969_sense ontolex:reference <https://no.wikipedia.org/wiki/Trakassering> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :nb_90969_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_34944 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_34944_sense ;
+    ontolex:writtenRep "Molestowanie" .
+  :pl_34944_sense ontolex:reference <https://pl.wikipedia.org/wiki/Molestowanie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :pl_34944_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pt_85058 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pt> ;
+    ontolex:sense :pt_85058_sense ;
+    ontolex:writtenRep "Assédio" .
+  :pt_85058_sense ontolex:reference <https://pt.wikipedia.org/wiki/Ass%C3%A9dio> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :pt_85058_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_13792 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_13792_sense ;
+    ontolex:writtenRep "Hărțuire" .
+  :ro_13792_sense ontolex:reference <https://ro.wikipedia.org/wiki/H%C4%83r%C8%9Buire> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :ro_13792_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ru_64773 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_64773_sense ;
+    ontolex:writtenRep "Домогательство" .
+  :ru_64773_sense ontolex:reference <https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :ru_64773_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :en-simple_81234 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/en-simple> ;
+    ontolex:sense :en-simple_81234_sense ;
+    ontolex:writtenRep "Harassment" .
+  :en-simple_81234_sense ontolex:reference <https://simple.wikipedia.org/wiki/Harassment> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :en-simple_81234_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_12377 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_12377_sense ;
+    ontolex:writtenRep "Trakasserier" .
+  :sv_12377_sense ontolex:reference <https://sv.wikipedia.org/wiki/Trakasserier> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :sv_12377_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :tr_88642 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/tr> ;
+    ontolex:sense :tr_88642_sense ;
+    ontolex:writtenRep "Taciz" .
+  :tr_88642_sense ontolex:reference <https://tr.wikipedia.org/wiki/Taciz> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :tr_88642_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :uk_36269 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/uk> ;
+    ontolex:sense :uk_36269_sense ;
+    ontolex:writtenRep "Домагання" .
+  :uk_36269_sense ontolex:reference <https://uk.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D0%B3%D0%B0%D0%BD%D0%BD%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :uk_36269_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_72227 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_72227_sense ;
+    ontolex:writtenRep "騷擾" .
+  :zh_72227_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E9%A8%B7%E6%93%BE> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :zh_72227_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hu_90351 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hu> ;
+    ontolex:sense :hu_90351_sense ;
+    ontolex:writtenRep "Zaklatás" .
+  :hu_90351_sense ontolex:reference <https://hu.wikipedia.org/wiki/Zaklat%C3%A1s> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :hu_90351_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fa_56524 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fa> ;
+    ontolex:sense :fa_56524_sense ;
+    ontolex:writtenRep "آزار" .
+  :fa_56524_sense ontolex:reference <https://fa.wikipedia.org/wiki/%D8%A2%D8%B2%D8%A7%D8%B1> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :fa_56524_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_53677 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_53677_sense ;
+    ontolex:writtenRep "Harcèlement" .
+  :fr_53677_sense ontolex:reference <https://fr.wikipedia.org/wiki/Harc%C3%A8lement> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :harassment_sense ;
+   vartrans:target :fr_53677_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :employee a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "employee"@en ;
+    ontolex:sense :employee_sense ;
+    ontolex:denotes wd:Q703534 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q7748 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :employee lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :de_34085 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_34085_sense ;
+    ontolex:writtenRep "Arbeitnehmer" .
+  :de_34085_sense ontolex:reference <https://de.wikipedia.org/wiki/Arbeitnehmer> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :de_34085_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :bar_56797 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bar> ;
+    ontolex:sense :bar_56797_sense ;
+    ontolex:writtenRep "Mitorbata" .
+  :bar_56797_sense ontolex:reference <https://bar.wikipedia.org/wiki/Mitorbata> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :bar_56797_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :cs_30356 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/cs> ;
+    ontolex:sense :cs_30356_sense ;
+    ontolex:writtenRep "Zaměstnanec" .
+  :cs_30356_sense ontolex:reference <https://cs.wikipedia.org/wiki/Zam%C4%9Bstnanec> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :cs_30356_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :da_28265 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/da> ;
+    ontolex:sense :da_28265_sense ;
+    ontolex:writtenRep "Medarbejder" .
+  :da_28265_sense ontolex:reference <https://da.wikipedia.org/wiki/Medarbejder> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :da_28265_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eo_65745 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eo> ;
+    ontolex:sense :eo_65745_sense ;
+    ontolex:writtenRep "Laborprenanto" .
+  :eo_65745_sense ontolex:reference <https://eo.wikipedia.org/wiki/Laborprenanto> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :eo_65745_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fi_29157 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fi> ;
+    ontolex:sense :fi_29157_sense ;
+    ontolex:writtenRep "Työntekijä" .
+  :fi_29157_sense ontolex:reference <https://fi.wikipedia.org/wiki/Ty%C3%B6ntekij%C3%A4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :fi_29157_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_25030 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_25030_sense ;
+    ontolex:writtenRep "Employé" .
+  :fr_25030_sense ontolex:reference <https://fr.wikipedia.org/wiki/Employ%C3%A9> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :fr_25030_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_30575 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_30575_sense ;
+    ontolex:writtenRep "직원" .
+  :ko_30575_sense ontolex:reference <https://ko.wikipedia.org/wiki/%EC%A7%81%EC%9B%90> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :ko_30575_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lv_85035 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lv> ;
+    ontolex:sense :lv_85035_sense ;
+    ontolex:writtenRep "Darbinieks" .
+  :lv_85035_sense ontolex:reference <https://lv.wikipedia.org/wiki/Darbinieks> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :lv_85035_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_23243 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_23243_sense ;
+    ontolex:writtenRep "Werknemer" .
+  :nl_23243_sense ontolex:reference <https://nl.wikipedia.org/wiki/Werknemer> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :nl_23243_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_65208 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_65208_sense ;
+    ontolex:writtenRep "Arbeidstaker" .
+  :nb_65208_sense ontolex:reference <https://no.wikipedia.org/wiki/Arbeidstaker> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :nb_65208_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_78070 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_78070_sense ;
+    ontolex:writtenRep "Pracownik" .
+  :pl_78070_sense ontolex:reference <https://pl.wikipedia.org/wiki/Pracownik> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :pl_78070_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_43211 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_43211_sense ;
+    ontolex:writtenRep "Angajat" .
+  :ro_43211_sense ontolex:reference <https://ro.wikipedia.org/wiki/Angajat> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :ro_43211_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :en-simple_77988 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/en-simple> ;
+    ontolex:sense :en-simple_77988_sense ;
+    ontolex:writtenRep "Employee" .
+  :en-simple_77988_sense ontolex:reference <https://simple.wikipedia.org/wiki/Employee> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :en-simple_77988_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sk_64570 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sk> ;
+    ontolex:sense :sk_64570_sense ;
+    ontolex:writtenRep "Zamestnanec" .
+  :sk_64570_sense ontolex:reference <https://sk.wikipedia.org/wiki/Zamestnanec> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :sk_64570_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sk_70758 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sk> ;
+    ontolex:sense :sk_70758_sense ;
+    ontolex:writtenRep "Zamestnanec" .
+  :sk_70758_sense ontolex:reference <https://sk.wikiquote.org/wiki/Zamestnanec> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :employee_sense ;
+   vartrans:target :sk_70758_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :notice a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "notice"@en ;
+    ontolex:sense :notice_sense ;
+    ontolex:denotes wd:Q7063001 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q7748 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :notice lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :ko_70312 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_70312_sense ;
+    ontolex:writtenRep "고시 (행정규칙)" .
+  :ko_70312_sense ontolex:reference <https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%8B%9C_(%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :notice_sense ;
+   vartrans:target :ko_70312_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ja_16606 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_16606_sense ;
+    ontolex:writtenRep "告示" .
+  :ja_16606_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E5%91%8A%E7%A4%BA> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :notice_sense ;
+   vartrans:target :ja_16606_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kn_88172 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kn> ;
+    ontolex:sense :kn_88172_sense ;
+    ontolex:writtenRep "ನೋಟೀಸು" .
+  :kn_88172_sense ontolex:reference <https://kn.wikipedia.org/wiki/%E0%B2%A8%E0%B3%8B%E0%B2%9F%E0%B3%80%E0%B2%B8%E0%B3%81> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :notice_sense ;
+   vartrans:target :kn_88172_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sn_80494 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sn> ;
+    ontolex:sense :sn_80494_sense ;
+    ontolex:writtenRep "Chiziviso" .
+  :sn_80494_sense ontolex:reference <https://sn.wikipedia.org/wiki/Chiziviso> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :notice_sense ;
+   vartrans:target :sn_80494_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_71625 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_71625_sense ;
+    ontolex:writtenRep "布告" .
+  :zh_71625_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E5%B8%83%E5%91%8A> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :notice_sense ;
+   vartrans:target :zh_71625_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :dismissal a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "dismissal"@en ;
+    ontolex:sense :dismissal_sense ;
+    ontolex:denotes wd:Q489322 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :dismissal lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :bn_41175 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bn> ;
+    ontolex:sense :bn_41175_sense ;
+    ontolex:writtenRep "আউট (ক্রিকেট)" .
+  :bn_41175_sense ontolex:reference <https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%89%E0%A6%9F_(%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :dismissal_sense ;
+   vartrans:target :bn_41175_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_12745 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_12745_sense ;
+    ontolex:writtenRep "Dismissal (Cricket)" .
+  :de_12745_sense ontolex:reference <https://de.wikipedia.org/wiki/Dismissal_(Cricket)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :dismissal_sense ;
+   vartrans:target :de_12745_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ur_57263 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ur> ;
+    ontolex:sense :ur_57263_sense ;
+    ontolex:writtenRep "آؤٹ" .
+  :ur_57263_sense ontolex:reference <https://ur.wikipedia.org/wiki/%D8%A2%D8%A4%D9%B9> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :dismissal_sense ;
+   vartrans:target :ur_57263_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_12971 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_12971_sense ;
+    ontolex:writtenRep "出局 (板球)" .
+  :zh_12971_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E5%87%BA%E5%B1%80_(%E6%9D%BF%E7%90%83)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :dismissal_sense ;
+   vartrans:target :zh_12971_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :mr_62604 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/mr> ;
+    ontolex:sense :mr_62604_sense ;
+    ontolex:writtenRep "क्रिकेटमध्ये फलंदाज बाद होण्याचे प्रकार" .
+  :mr_62604_sense ontolex:reference <https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%9F%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A5%87_%E0%A4%AB%E0%A4%B2%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%9C_%E0%A4%AC%E0%A4%BE%E0%A4%A6_%E0%A4%B9%E0%A5%8B%E0%A4%A3%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9A%E0%A5%87_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :dismissal_sense ;
+   vartrans:target :mr_62604_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :commission a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "commission"@en ;
+    ontolex:sense :commission_sense ;
+    ontolex:denotes wd:Q60918 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :commission lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :de_44806 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_44806_sense ;
+    ontolex:writtenRep "Offizierspatent" .
+  :de_44806_sense ontolex:reference <https://de.wikipedia.org/wiki/Offizierspatent> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :commission_sense ;
+   vartrans:target :de_44806_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ml_52350 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ml> ;
+    ontolex:sense :ml_52350_sense ;
+    ontolex:writtenRep "കമ്മീഷൻ" .
+  :ml_52350_sense ontolex:reference <https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B5%80%E0%B4%B7%E0%B5%BB> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :commission_sense ;
+   vartrans:target :ml_52350_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_34733 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_34733_sense ;
+    ontolex:writtenRep "Officersfullmakt" .
+  :sv_34733_sense ontolex:reference <https://sv.wikipedia.org/wiki/Officersfullmakt> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :commission_sense ;
+   vartrans:target :sv_34733_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :conciliation a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "conciliation"@en ;
+    ontolex:sense :conciliation_sense ;
+    ontolex:denotes wd:Q13479560 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :conciliation lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :fr_90397 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_90397_sense ;
+    ontolex:writtenRep "Conciliation" .
+  :fr_90397_sense ontolex:reference <https://fr.wikipedia.org/wiki/Conciliation> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :fr_90397_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_77822 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_77822_sense ;
+    ontolex:writtenRep "Schlichtung" .
+  :de_77822_sense ontolex:reference <https://de.wikipedia.org/wiki/Schlichtung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :de_77822_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_84645 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_84645_sense ;
+    ontolex:writtenRep "Conciliación (Derecho)" .
+  :es_84645_sense ontolex:reference <https://es.wikipedia.org/wiki/Conciliaci%C3%B3n_(Derecho)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :es_84645_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :is_29407 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/is> ;
+    ontolex:sense :is_29407_sense ;
+    ontolex:writtenRep "Sáttamiðlun" .
+  :is_29407_sense ontolex:reference <https://is.wikipedia.org/wiki/S%C3%A1ttami%C3%B0lun> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :is_29407_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ja_47512 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_47512_sense ;
+    ontolex:writtenRep "調停" .
+  :ja_47512_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E8%AA%BF%E5%81%9C> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :ja_47512_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_23404 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_23404_sense ;
+    ontolex:writtenRep "화해" .
+  :ko_23404_sense ontolex:reference <https://ko.wikipedia.org/wiki/%ED%99%94%ED%95%B4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :ko_23404_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lt_96471 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lt> ;
+    ontolex:sense :lt_96471_sense ;
+    ontolex:writtenRep "Taikinimas" .
+  :lt_96471_sense ontolex:reference <https://lt.wikipedia.org/wiki/Taikinimas> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :lt_96471_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ml_93875 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ml> ;
+    ontolex:sense :ml_93875_sense ;
+    ontolex:writtenRep "അനുരഞ്ജനം" .
+  :ml_93875_sense ontolex:reference <https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%A8%E0%B5%81%E0%B4%B0%E0%B4%9E%E0%B5%8D%E0%B4%9C%E0%B4%A8%E0%B4%82> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :ml_93875_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_45017 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_45017_sense ;
+    ontolex:writtenRep "Conciliatie" .
+  :nl_45017_sense ontolex:reference <https://nl.wikipedia.org/wiki/Conciliatie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :nl_45017_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :tr_10418 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/tr> ;
+    ontolex:sense :tr_10418_sense ;
+    ontolex:writtenRep "Uzlaştırma" .
+  :tr_10418_sense ontolex:reference <https://tr.wikipedia.org/wiki/Uzla%C5%9Ft%C4%B1rma> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :conciliation_sense ;
+   vartrans:target :tr_10418_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :allegation a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "allegation"@en ;
+    ontolex:sense :allegation_sense ;
+    ontolex:denotes wd:Q2839009 ;
+    ontolex:denotes <https://it.wikipedia.org/wiki/Denuncia> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :allegation lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :kn_79623 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kn> ;
+    ontolex:sense :kn_79623_sense ;
+    ontolex:writtenRep "ಆರೋಪ" .
+  :kn_79623_sense ontolex:reference <https://kn.wikipedia.org/wiki/%E0%B2%86%E0%B2%B0%E0%B3%8B%E0%B2%AA> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :allegation_sense ;
+   vartrans:target :kn_79623_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_39610 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_39610_sense ;
+    ontolex:writtenRep "Anschuldigung" .
+  :de_39610_sense ontolex:reference <https://de.wikipedia.org/wiki/Anschuldigung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :allegation_sense ;
+   vartrans:target :de_39610_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_16947 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_16947_sense ;
+    ontolex:writtenRep "Allégation" .
+  :fr_16947_sense ontolex:reference <https://fr.wikipedia.org/wiki/All%C3%A9gation> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :allegation_sense ;
+   vartrans:target :fr_16947_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_82141 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_82141_sense ;
+    ontolex:writtenRep "Denuncia" .
+  :it_82141_sense ontolex:reference <https://it.wikipedia.org/wiki/Denuncia> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :allegation_sense ;
+   vartrans:target :it_82141_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :provision a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "provision"@en ;
+    ontolex:sense :provision_sense ;
+    ontolex:denotes wd:Q703087 ;
+    ontolex:denotes <https://it.wikipedia.org/wiki/Accantonamento_(contabilit%C3%A0)> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :provision lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :ar_19197 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_19197_sense ;
+    ontolex:writtenRep "حساب المخصص" .
+  :ar_19197_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8_%D8%A7%D9%84%D9%85%D8%AE%D8%B5%D8%B5> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :ar_19197_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :da_14143 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/da> ;
+    ontolex:sense :da_14143_sense ;
+    ontolex:writtenRep "Hensættelse" .
+  :da_14143_sense ontolex:reference <https://da.wikipedia.org/wiki/Hens%C3%A6ttelse> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :da_14143_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_43014 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_43014_sense ;
+    ontolex:writtenRep "Rückstellung" .
+  :de_43014_sense ontolex:reference <https://de.wikipedia.org/wiki/R%C3%BCckstellung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :de_43014_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_69407 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_69407_sense ;
+    ontolex:writtenRep "Provision" .
+  :fr_69407_sense ontolex:reference <https://fr.wikipedia.org/wiki/Provision> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :fr_69407_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :he_31430 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/he> ;
+    ontolex:sense :he_31430_sense ;
+    ontolex:writtenRep "הפרשה (חשבונאות)" .
+  :he_31430_sense ontolex:reference <https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%A9%D7%94_(%D7%97%D7%A9%D7%91%D7%95%D7%A0%D7%90%D7%95%D7%AA)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :he_31430_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hu_52419 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hu> ;
+    ontolex:sense :hu_52419_sense ;
+    ontolex:writtenRep "Céltartalék" .
+  :hu_52419_sense ontolex:reference <https://hu.wikipedia.org/wiki/C%C3%A9ltartal%C3%A9k> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :hu_52419_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_51200 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_51200_sense ;
+    ontolex:writtenRep "Accantonamento (contabilità)" .
+  :it_51200_sense ontolex:reference <https://it.wikipedia.org/wiki/Accantonamento_(contabilit%C3%A0)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :it_51200_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lt_32103 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lt> ;
+    ontolex:sense :lt_32103_sense ;
+    ontolex:writtenRep "Atidėjiniai" .
+  :lt_32103_sense ontolex:reference <https://lt.wikipedia.org/wiki/Atid%C4%97jiniai> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :lt_32103_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_12830 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_12830_sense ;
+    ontolex:writtenRep "Voorzieningen (boekhouden)" .
+  :nl_12830_sense ontolex:reference <https://nl.wikipedia.org/wiki/Voorzieningen_(boekhouden)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :nl_12830_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_16877 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_16877_sense ;
+    ontolex:writtenRep "Provizion" .
+  :ro_16877_sense ontolex:reference <https://ro.wikipedia.org/wiki/Provizion> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :ro_16877_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sl_81624 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sl> ;
+    ontolex:sense :sl_81624_sense ;
+    ontolex:writtenRep "Provizija" .
+  :sl_81624_sense ontolex:reference <https://sl.wikipedia.org/wiki/Provizija> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :sl_81624_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_95038 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_95038_sense ;
+    ontolex:writtenRep "Avsättning" .
+  :sv_95038_sense ontolex:reference <https://sv.wikipedia.org/wiki/Avs%C3%A4ttning> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :sv_95038_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_86070 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_86070_sense ;
+    ontolex:writtenRep "撥備" .
+  :zh_86070_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E6%92%A5%E5%82%99> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :provision_sense ;
+   vartrans:target :zh_86070_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :appeal a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "appeal"@en ;
+    ontolex:sense :appeal_sense ;
+    ontolex:denotes wd:Q329777 ;
+    ontolex:denotes <https://it.wikipedia.org/wiki/Appello_(diritto)> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :appeal lexinfo:partOfSpeech lexinfo:verb ;
+  
+
+  :ru_68627 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_68627_sense ;
+    ontolex:writtenRep "Апелляция" .
+  :ru_68627_sense ontolex:reference <https://ru.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ru_68627_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nn_68064 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nn> ;
+    ontolex:sense :nn_68064_sense ;
+    ontolex:writtenRep "Anke" .
+  :nn_68064_sense ontolex:reference <https://nn.wikipedia.org/wiki/Anke> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :nn_68064_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_12319 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_12319_sense ;
+    ontolex:writtenRep "Anke" .
+  :nb_12319_sense ontolex:reference <https://no.wikipedia.org/wiki/Anke> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :nb_12319_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :cs_69861 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/cs> ;
+    ontolex:sense :cs_69861_sense ;
+    ontolex:writtenRep "Odvolání" .
+  :cs_69861_sense ontolex:reference <https://cs.wikipedia.org/wiki/Odvol%C3%A1n%C3%AD> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :cs_69861_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :da_35647 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/da> ;
+    ontolex:sense :da_35647_sense ;
+    ontolex:writtenRep "Appel" .
+  :da_35647_sense ontolex:reference <https://da.wikipedia.org/wiki/Appel> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :da_35647_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :id_10483 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/id> ;
+    ontolex:sense :id_10483_sense ;
+    ontolex:writtenRep "Banding" .
+  :id_10483_sense ontolex:reference <https://id.wikipedia.org/wiki/Banding> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :id_10483_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :af_84446 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/af> ;
+    ontolex:sense :af_84446_sense ;
+    ontolex:writtenRep "Appèl" .
+  :af_84446_sense ontolex:reference <https://af.wikipedia.org/wiki/App%C3%A8l> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :af_84446_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ast_71921 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ast> ;
+    ontolex:sense :ast_71921_sense ;
+    ontolex:writtenRep "Recursu d'apelación" .
+  :ast_71921_sense ontolex:reference <https://ast.wikipedia.org/wiki/Recursu_d%27apelaci%C3%B3n> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ast_71921_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :be_39865 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/be> ;
+    ontolex:sense :be_39865_sense ;
+    ontolex:writtenRep "Апеляцыя" .
+  :be_39865_sense ontolex:reference <https://be.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D1%8F%D1%86%D1%8B%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :be_39865_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :bg_74771 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bg> ;
+    ontolex:sense :bg_74771_sense ;
+    ontolex:writtenRep "Апелация" .
+  :bg_74771_sense ontolex:reference <https://bg.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D0%B0%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :bg_74771_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ca_76374 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ca> ;
+    ontolex:sense :ca_76374_sense ;
+    ontolex:writtenRep "Apel·lació" .
+  :ca_76374_sense ontolex:reference <https://ca.wikipedia.org/wiki/Apel%C2%B7laci%C3%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ca_76374_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_66840 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_66840_sense ;
+    ontolex:writtenRep "Berufung (Recht)" .
+  :de_66840_sense ontolex:reference <https://de.wikipedia.org/wiki/Berufung_(Recht)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :de_66840_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :el_66659 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/el> ;
+    ontolex:sense :el_66659_sense ;
+    ontolex:writtenRep "Έφεση" .
+  :el_66659_sense ontolex:reference <https://el.wikipedia.org/wiki/%CE%88%CF%86%CE%B5%CF%83%CE%B7> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :el_66659_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eo_63329 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eo> ;
+    ontolex:sense :eo_63329_sense ;
+    ontolex:writtenRep "Apelacio" .
+  :eo_63329_sense ontolex:reference <https://eo.wikipedia.org/wiki/Apelacio> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :eo_63329_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_62189 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_62189_sense ;
+    ontolex:writtenRep "Recurso de apelación" .
+  :es_62189_sense ontolex:reference <https://es.wikipedia.org/wiki/Recurso_de_apelaci%C3%B3n> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :es_62189_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :et_75866 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/et> ;
+    ontolex:sense :et_75866_sense ;
+    ontolex:writtenRep "Apellatsioon" .
+  :et_75866_sense ontolex:reference <https://et.wikipedia.org/wiki/Apellatsioon> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :et_75866_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fa_26558 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fa> ;
+    ontolex:sense :fa_26558_sense ;
+    ontolex:writtenRep "اعتراض (حقوق)" .
+  :fa_26558_sense ontolex:reference <https://fa.wikipedia.org/wiki/%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6_(%D8%AD%D9%82%D9%88%D9%82)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :fa_26558_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_51194 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_51194_sense ;
+    ontolex:writtenRep "Appel (droit)" .
+  :fr_51194_sense ontolex:reference <https://fr.wikipedia.org/wiki/Appel_(droit)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :fr_51194_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :he_35105 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/he> ;
+    ontolex:sense :he_35105_sense ;
+    ontolex:writtenRep "ערעור" .
+  :he_35105_sense ontolex:reference <https://he.wikipedia.org/wiki/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :he_35105_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hi_44251 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hi> ;
+    ontolex:sense :hi_44251_sense ;
+    ontolex:writtenRep "अपील" .
+  :hi_44251_sense ontolex:reference <https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%AA%E0%A5%80%E0%A4%B2> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :hi_44251_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hu_50543 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hu> ;
+    ontolex:sense :hu_50543_sense ;
+    ontolex:writtenRep "Fellebbezés" .
+  :hu_50543_sense ontolex:reference <https://hu.wikipedia.org/wiki/Fellebbez%C3%A9s> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :hu_50543_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :hy_79900 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/hy> ;
+    ontolex:sense :hy_79900_sense ;
+    ontolex:writtenRep "Ապելյացիա" .
+  :hy_79900_sense ontolex:reference <https://hy.wikipedia.org/wiki/%D4%B1%D5%BA%D5%A5%D5%AC%D5%B5%D5%A1%D6%81%D5%AB%D5%A1> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :hy_79900_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_75600 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_75600_sense ;
+    ontolex:writtenRep "Appello (diritto)" .
+  :it_75600_sense ontolex:reference <https://it.wikipedia.org/wiki/Appello_(diritto)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :it_75600_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ja_32177 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_32177_sense ;
+    ontolex:writtenRep "抗告" .
+  :ja_32177_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E6%8A%97%E5%91%8A> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ja_32177_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ka_71282 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ka> ;
+    ontolex:sense :ka_71282_sense ;
+    ontolex:writtenRep "აპელაცია" .
+  :ka_71282_sense ontolex:reference <https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9E%E1%83%94%E1%83%9A%E1%83%90%E1%83%AA%E1%83%98%E1%83%90> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ka_71282_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kk_76042 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kk> ;
+    ontolex:sense :kk_76042_sense ;
+    ontolex:writtenRep "Шағыну" .
+  :kk_76042_sense ontolex:reference <https://kk.wikipedia.org/wiki/%D0%A8%D0%B0%D2%93%D1%8B%D0%BD%D1%83> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :kk_76042_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_59213 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_59213_sense ;
+    ontolex:writtenRep "항고" .
+  :ko_59213_sense ontolex:reference <https://ko.wikipedia.org/wiki/%ED%95%AD%EA%B3%A0> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ko_59213_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ky_45199 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ky> ;
+    ontolex:sense :ky_45199_sense ;
+    ontolex:writtenRep "Апелляция" .
+  :ky_45199_sense ontolex:reference <https://ky.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ky_45199_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :lt_19142 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/lt> ;
+    ontolex:sense :lt_19142_sense ;
+    ontolex:writtenRep "Apeliacija (teisė)" .
+  :lt_19142_sense ontolex:reference <https://lt.wikipedia.org/wiki/Apeliacija_(teis%C4%97)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :lt_19142_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ml_97961 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ml> ;
+    ontolex:sense :ml_97961_sense ;
+    ontolex:writtenRep "അപ്പീൽ" .
+  :ml_97961_sense ontolex:reference <https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%80%E0%B5%BD> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ml_97961_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_93961 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_93961_sense ;
+    ontolex:writtenRep "Hoger beroep" .
+  :nl_93961_sense ontolex:reference <https://nl.wikipedia.org/wiki/Hoger_beroep> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :nl_93961_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pa_47064 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pa> ;
+    ontolex:sense :pa_47064_sense ;
+    ontolex:writtenRep "ਅਪੀਲ" .
+  :pa_47064_sense ontolex:reference <https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A8%AA%E0%A9%80%E0%A8%B2> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :pa_47064_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_87695 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_87695_sense ;
+    ontolex:writtenRep "Apelacja (prawo)" .
+  :pl_87695_sense ontolex:reference <https://pl.wikipedia.org/wiki/Apelacja_(prawo)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :pl_87695_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_35496 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_35496_sense ;
+    ontolex:writtenRep "Apel (justiție)" .
+  :ro_35496_sense ontolex:reference <https://ro.wikipedia.org/wiki/Apel_(justi%C8%9Bie)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ro_35496_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sd_53420 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sd> ;
+    ontolex:sense :sd_53420_sense ;
+    ontolex:writtenRep "اپيل" .
+  :sd_53420_sense ontolex:reference <https://sd.wikipedia.org/wiki/%D8%A7%D9%BE%D9%8A%D9%84> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :sd_53420_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :en-simple_95201 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/en-simple> ;
+    ontolex:sense :en-simple_95201_sense ;
+    ontolex:writtenRep "Appeal" .
+  :en-simple_95201_sense ontolex:reference <https://simple.wikipedia.org/wiki/Appeal> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :en-simple_95201_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_59805 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_59805_sense ;
+    ontolex:writtenRep "Överklagande" .
+  :sv_59805_sense ontolex:reference <https://sv.wikipedia.org/wiki/%C3%96verklagande> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :sv_59805_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ta_41391 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ta> ;
+    ontolex:sense :ta_41391_sense ;
+    ontolex:writtenRep "மேல் முறையீடு" .
+  :ta_41391_sense ontolex:reference <https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AF%87%E0%AE%B2%E0%AF%8D_%E0%AE%AE%E0%AF%81%E0%AE%B1%E0%AF%88%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ta_41391_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :tg_12490 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/tg> ;
+    ontolex:sense :tg_12490_sense ;
+    ontolex:writtenRep "Апеллятсия" .
+  :tg_12490_sense ontolex:reference <https://tg.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D0%BB%D1%8F%D1%82%D1%81%D0%B8%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :tg_12490_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :tr_19898 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/tr> ;
+    ontolex:sense :tr_19898_sense ;
+    ontolex:writtenRep "Temyiz" .
+  :tr_19898_sense ontolex:reference <https://tr.wikipedia.org/wiki/Temyiz> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :tr_19898_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :uk_77853 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/uk> ;
+    ontolex:sense :uk_77853_sense ;
+    ontolex:writtenRep "Апеляція" .
+  :uk_77853_sense ontolex:reference <https://uk.wikipedia.org/wiki/%D0%90%D0%BF%D0%B5%D0%BB%D1%8F%D1%86%D1%96%D1%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :uk_77853_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :uz_60954 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/uz> ;
+    ontolex:sense :uz_60954_sense ;
+    ontolex:writtenRep "Apellyatsiya" .
+  :uz_60954_sense ontolex:reference <https://uz.wikipedia.org/wiki/Apellyatsiya> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :uz_60954_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :yue_53875 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/yue> ;
+    ontolex:sense :yue_53875_sense ;
+    ontolex:writtenRep "上訴" .
+  :yue_53875_sense ontolex:reference <https://zh-yue.wikipedia.org/wiki/%E4%B8%8A%E8%A8%B4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :yue_53875_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_52681 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_52681_sense ;
+    ontolex:writtenRep "上訴" .
+  :zh_52681_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E4%B8%8A%E8%A8%B4> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :zh_52681_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ar_37840 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_37840_sense ;
+    ontolex:writtenRep "استئناف" .
+  :ar_37840_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :ar_37840_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :vi_74404 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/vi> ;
+    ontolex:sense :vi_74404_sense ;
+    ontolex:writtenRep "Phúc thẩm" .
+  :vi_74404_sense ontolex:reference <https://vi.wikipedia.org/wiki/Ph%C3%BAc_th%E1%BA%A9m> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :vi_74404_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :az_32636 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/az> ;
+    ontolex:sense :az_32636_sense ;
+    ontolex:writtenRep "Apelyasiya" .
+  :az_32636_sense ontolex:reference <https://az.wikipedia.org/wiki/Apelyasiya> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :appeal_sense ;
+   vartrans:target :az_32636_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :deposit a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "deposit"@en ;
+    ontolex:sense :deposit_sense ;
+    ontolex:denotes wd:Q2063826 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :deposit lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :ja_53908 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ja> ;
+    ontolex:sense :ja_53908_sense ;
+    ontolex:writtenRep "供託金" .
+  :ja_53908_sense ontolex:reference <https://ja.wikipedia.org/wiki/%E4%BE%9B%E8%A8%97%E9%87%91> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :deposit_sense ;
+   vartrans:target :ja_53908_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_40684 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_40684_sense ;
+    ontolex:writtenRep "Kaucja wyborcza" .
+  :pl_40684_sense ontolex:reference <https://pl.wikipedia.org/wiki/Kaucja_wyborcza> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :deposit_sense ;
+   vartrans:target :pl_40684_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ru_37761 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_37761_sense ;
+    ontolex:writtenRep "Избирательный залог" .
+  :ru_37761_sense ontolex:reference <https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :deposit_sense ;
+   vartrans:target :ru_37761_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ta_69875 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ta> ;
+    ontolex:sense :ta_69875_sense ;
+    ontolex:writtenRep "வைப்புத்தொகை (தேர்தல்)" .
+  :ta_69875_sense ontolex:reference <https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88_(%E0%AE%A4%E0%AF%87%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :deposit_sense ;
+   vartrans:target :ta_69875_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_65842 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_65842_sense ;
+    ontolex:writtenRep "選舉按金" .
+  :zh_65842_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E9%81%B8%E8%88%89%E6%8C%89%E9%87%91> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :deposit_sense ;
+   vartrans:target :zh_65842_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :agency a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "agency"@en ;
+    ontolex:sense :agency_sense ;
+    ontolex:denotes wd:Q352450 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :agency lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+  :de_20897 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_20897_sense ;
+    ontolex:writtenRep "Agentur" .
+  :de_20897_sense ontolex:reference <https://de.wikipedia.org/wiki/Agentur> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :agency_sense ;
+   vartrans:target :de_20897_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eo_23923 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eo> ;
+    ontolex:sense :eo_23923_sense ;
+    ontolex:writtenRep "Agentejo" .
+  :eo_23923_sense ontolex:reference <https://eo.wikipedia.org/wiki/Agentejo> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :agency_sense ;
+   vartrans:target :eo_23923_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_28363 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_28363_sense ;
+    ontolex:writtenRep "Agenturhandel" .
+  :nb_28363_sense ontolex:reference <https://no.wikipedia.org/wiki/Agenturhandel> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :agency_sense ;
+   vartrans:target :nb_28363_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_50820 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_50820_sense ;
+    ontolex:writtenRep "Agenție" .
+  :ro_50820_sense ontolex:reference <https://ro.wikipedia.org/wiki/Agen%C8%9Bie> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :agency_sense ;
+   vartrans:target :ro_50820_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_14306 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_14306_sense ;
+    ontolex:writtenRep "Agentur" .
+  :sv_14306_sense ontolex:reference <https://sv.wikipedia.org/wiki/Agentur> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :agency_sense ;
+   vartrans:target :sv_14306_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :Liability a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "Liability"@en ;
+    ontolex:sense :Liability_sense ;
+    ontolex:denotes wd:Q1218236 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q7748 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+
+  :mr_86151 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/mr> ;
+    ontolex:sense :mr_86151_sense ;
+    ontolex:writtenRep "देयता" .
+  :mr_86151_sense ontolex:reference <https://mr.wikipedia.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%AF%E0%A4%A4%E0%A4%BE> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Liability_sense ;
+   vartrans:target :mr_86151_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pt_57238 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pt> ;
+    ontolex:sense :pt_57238_sense ;
+    ontolex:writtenRep "Passivo" .
+  :pt_57238_sense ontolex:reference <https://pt.wikipedia.org/wiki/Passivo> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Liability_sense ;
+   vartrans:target :pt_57238_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ro_14998 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ro> ;
+    ontolex:sense :ro_14998_sense ;
+    ontolex:writtenRep "Pasiv (dezambiguizare)" .
+  :ro_14998_sense ontolex:reference <https://ro.wikipedia.org/wiki/Pasiv_(dezambiguizare)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Liability_sense ;
+   vartrans:target :ro_14998_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :Counsel a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "Counsel"@en ;
+    ontolex:sense :Counsel_sense ;
+    ontolex:denotes wd:Q5176610 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+
+
+  :consent a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "consent"@en ;
+    ontolex:sense :consent_sense ;
+    ontolex:denotes wd:Q231043 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :consent lexinfo:partOfSpeech lexinfo:verb ;
+  
+
+  :bn_57997 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/bn> ;
+    ontolex:sense :bn_57997_sense ;
+    ontolex:writtenRep "সম্মতি" .
+  :bn_57997_sense ontolex:reference <https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A4%E0%A6%BF> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :bn_57997_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_15836 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_15836_sense ;
+    ontolex:writtenRep "Zustimmung" .
+  :de_15836_sense ontolex:reference <https://de.wikipedia.org/wiki/Zustimmung> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :de_15836_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :el_40701 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/el> ;
+    ontolex:sense :el_40701_sense ;
+    ontolex:writtenRep "Συναίνεση" .
+  :el_40701_sense ontolex:reference <https://el.wikiquote.org/wiki/%CE%A3%CF%85%CE%BD%CE%B1%CE%AF%CE%BD%CE%B5%CF%83%CE%B7> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :el_40701_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_54575 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_54575_sense ;
+    ontolex:writtenRep "Consentimiento" .
+  :es_54575_sense ontolex:reference <https://es.wikipedia.org/wiki/Consentimiento> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :es_54575_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :kn_45400 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/kn> ;
+    ontolex:sense :kn_45400_sense ;
+    ontolex:writtenRep "ಒಪ್ಪಿಗೆ" .
+  :kn_45400_sense ontolex:reference <https://kn.wikipedia.org/wiki/%E0%B2%92%E0%B2%AA%E0%B3%8D%E0%B2%AA%E0%B2%BF%E0%B2%97%E0%B3%86> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :kn_45400_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ko_46416 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ko> ;
+    ontolex:sense :ko_46416_sense ;
+    ontolex:writtenRep "승낙" .
+  :ko_46416_sense ontolex:reference <https://ko.wikipedia.org/wiki/%EC%8A%B9%EB%82%99> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :ko_46416_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :sv_30983 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/sv> ;
+    ontolex:sense :sv_30983_sense ;
+    ontolex:writtenRep "Samtycke" .
+  :sv_30983_sense ontolex:reference <https://sv.wikipedia.org/wiki/Samtycke> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :sv_30983_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :te_23137 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/te> ;
+    ontolex:sense :te_23137_sense ;
+    ontolex:writtenRep "అంగీకారము" .
+  :te_23137_sense ontolex:reference <https://te.wikipedia.org/wiki/%E0%B0%85%E0%B0%82%E0%B0%97%E0%B1%80%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%AE%E0%B1%81> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :te_23137_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_56159 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_56159_sense ;
+    ontolex:writtenRep "同意" .
+  :zh_56159_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E5%90%8C%E6%84%8F> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :zh_56159_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ar_11906 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_11906_sense ;
+    ontolex:writtenRep "رضا (قانون)" .
+  :ar_11906_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D8%B1%D8%B6%D8%A7_(%D9%82%D8%A7%D9%86%D9%88%D9%86)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :consent_sense ;
+   vartrans:target :ar_11906_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+
+  :mitigation a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "mitigation"@en ;
+    ontolex:sense :mitigation_sense ;
+    ontolex:denotes wd:Q6881762 ;
+    ontolex:denotes <> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+  :mitigation lexinfo:partOfSpeech lexinfo:noun ;
+  
+
+
+  :Convention a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:writtenRep "Convention"@en ;
+    ontolex:sense :Convention_sense ;
+    ontolex:denotes wd:Q630642 ;
+    ontolex:denotes <https://it.wikipedia.org/wiki/Convention_(metropolitana_di_Parigi)> ;
+    dct:subject wd:Q382995 ; 
+    dct:language <http://lexvo.org/id/iso639-1/en> .
+  
+
+  :pt_39526 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pt> ;
+    ontolex:sense :pt_39526_sense ;
+    ontolex:writtenRep "Estação Convention" .
+  :pt_39526_sense ontolex:reference <https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Convention> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :pt_39526_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ar_53668 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ar> ;
+    ontolex:sense :ar_53668_sense ;
+    ontolex:writtenRep "كونفونسيون (مترو باريس)" .
+  :ar_53668_sense ontolex:reference <https://ar.wikipedia.org/wiki/%D9%83%D9%88%D9%86%D9%81%D9%88%D9%86%D8%B3%D9%8A%D9%88%D9%86_(%D9%85%D8%AA%D8%B1%D9%88_%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :ar_53668_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :cs_48687 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/cs> ;
+    ontolex:sense :cs_48687_sense ;
+    ontolex:writtenRep "Convention (stanice metra v Paříži)" .
+  :cs_48687_sense ontolex:reference <https://cs.wikipedia.org/wiki/Convention_(stanice_metra_v_Pa%C5%99%C3%AD%C5%BEi)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :cs_48687_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :de_26248 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/de> ;
+    ontolex:sense :de_26248_sense ;
+    ontolex:writtenRep "Convention (Métro Paris)" .
+  :de_26248_sense ontolex:reference <https://de.wikipedia.org/wiki/Convention_(M%C3%A9tro_Paris)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :de_26248_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :eo_78066 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/eo> ;
+    ontolex:sense :eo_78066_sense ;
+    ontolex:writtenRep "Convention (pariza metrostacio)" .
+  :eo_78066_sense ontolex:reference <https://eo.wikipedia.org/wiki/Convention_(pariza_metrostacio)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :eo_78066_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :es_90353 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/es> ;
+    ontolex:sense :es_90353_sense ;
+    ontolex:writtenRep "Estación de Convention" .
+  :es_90353_sense ontolex:reference <https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Convention> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :es_90353_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :fr_83291 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/fr> ;
+    ontolex:sense :fr_83291_sense ;
+    ontolex:writtenRep "Convention (métro de Paris)" .
+  :fr_83291_sense ontolex:reference <https://fr.wikipedia.org/wiki/Convention_(m%C3%A9tro_de_Paris)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :fr_83291_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :it_96057 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/it> ;
+    ontolex:sense :it_96057_sense ;
+    ontolex:writtenRep "Convention (metropolitana di Parigi)" .
+  :it_96057_sense ontolex:reference <https://it.wikipedia.org/wiki/Convention_(metropolitana_di_Parigi)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :it_96057_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nl_63619 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nl> ;
+    ontolex:sense :nl_63619_sense ;
+    ontolex:writtenRep "Convention (metrostation)" .
+  :nl_63619_sense ontolex:reference <https://nl.wikipedia.org/wiki/Convention_(metrostation)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :nl_63619_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :nb_48500 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/nb> ;
+    ontolex:sense :nb_48500_sense ;
+    ontolex:writtenRep "Convention (Paris Metro)" .
+  :nb_48500_sense ontolex:reference <https://no.wikipedia.org/wiki/Convention_(Paris_Metro)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :nb_48500_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :pl_31690 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/pl> ;
+    ontolex:sense :pl_31690_sense ;
+    ontolex:writtenRep "Convention" .
+  :pl_31690_sense ontolex:reference <https://pl.wikipedia.org/wiki/Convention> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :pl_31690_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :ru_87383 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/ru> ;
+    ontolex:sense :ru_87383_sense ;
+    ontolex:writtenRep "Конвансьон (станция метро)" .
+  :ru_87383_sense ontolex:reference <https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B0%D0%BD%D1%81%D1%8C%D0%BE%D0%BD_(%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%D0%BC%D0%B5%D1%82%D1%80%D0%BE)> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :ru_87383_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
+  :zh_57933 a ontolex:LexicalEntry;
+    dct:language <http://lexvo.org/id/iso639-1/zh> ;
+    ontolex:sense :zh_57933_sense ;
+    ontolex:writtenRep "國民公會站" .
+  :zh_57933_sense ontolex:reference <https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E5%85%AC%E6%9C%83%E7%AB%99> .
+
+  :trans a vartrans:Translation;
+   vartrans:source :Convention_sense ;
+   vartrans:target :zh_57933_sense ;
+   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+  
+
