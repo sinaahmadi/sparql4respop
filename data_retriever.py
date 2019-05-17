@@ -222,14 +222,14 @@ def wikidata_retriever(terms, lang):
 ## List of words
 # source_language = "english"
 # source_language = "italian"
-# source_file_dir = "SourceDatasets/100term.txt"
+# source_file_dir = "original_datasets/100term.txt.txt"
 # source_file = open(source_file_dir, "r")
 # terms = [t for t in source_file.read().split("\n")]
 # terms_keys = terms#[0:10]#[80:90]
 # ====
 # ICCR 
 source_language = "italian"
-source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
+source_file_dir = "original_datasets/dataset-thesaurus_definizione_extracted.tsv"
 source_file = open(source_file_dir, "r")
 terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
 terms_keys = list(terms.keys())[1000:]
