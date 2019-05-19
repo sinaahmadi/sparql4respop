@@ -67,6 +67,15 @@ def wiktionary_retriever(word_list, lang):
 def ontolex_converter(info):
 
   header_template = """
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>.
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#>.
+
   :TERM a ontolex:LexicalEntry, ontolex:Word ;
     ontolex:writtenRep "TERM"@LANG ;
     ontolex:sense :TERM_sense ;
@@ -222,14 +231,14 @@ def wikidata_retriever(terms, lang):
 ## List of words
 # source_language = "english"
 # source_language = "italian"
-# source_file_dir = "original_datasets/100term.txt.txt"
+# source_file_dir = "SourceDatasets/100term.txt"
 # source_file = open(source_file_dir, "r")
 # terms = [t for t in source_file.read().split("\n")]
 # terms_keys = terms#[0:10]#[80:90]
 # ====
 # ICCR 
 source_language = "italian"
-source_file_dir = "original_datasets/dataset-thesaurus_definizione_extracted.tsv"
+source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
 source_file = open(source_file_dir, "r")
 terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
 terms_keys = list(terms.keys())[1000:]
