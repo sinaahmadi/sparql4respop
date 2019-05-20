@@ -67,14 +67,16 @@ def wiktionary_retriever(word_list, lang):
 def ontolex_converter(info):
 
   header_template = """
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>.
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix dct: <http://purl.org/dc/terms/>.
-@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
-@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#>.
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix isocat: <http://www.isocat.org/datacat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iso639: <http://lexvo.org/id/iso639-1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix : <#> .
 
   :TERM a ontolex:LexicalEntry, ontolex:Word ;
     ontolex:writtenRep "TERM"@LANG ;
