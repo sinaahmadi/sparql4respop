@@ -66,18 +66,20 @@ def wiktionary_retriever(word_list, lang):
 # =========================================
 def ontolex_converter(info):
 
-  header_template = """
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
-@prefix isocat: <http://www.isocat.org/datacat/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix iso639: <http://lexvo.org/id/iso639-1/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix wd: <http://www.wikidata.org/entity/> .
-@prefix : <#> .
+  prefixes_templates = """
+  @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+  @prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+  @prefix isocat: <http://www.isocat.org/datacat/> .
+  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+  @prefix owl: <http://www.w3.org/2002/07/owl#> .
+  @prefix iso639: <http://lexvo.org/id/iso639-1/> .
+  @prefix dc: <http://purl.org/dc/elements/1.1/> .
+  @prefix dct: <http://purl.org/dc/terms/> .
+  @prefix wd: <http://www.wikidata.org/entity/> .
+  @prefix : <#> .
+  """
 
+  header_template = """
   :TERM a ontolex:LexicalEntry, ontolex:Word ;
     ontolex:writtenRep "TERM"@LANG ;
     ontolex:sense :TERM_sense ;
@@ -153,7 +155,7 @@ def ontolex_converter(info):
 
       translation_text += "\n" + translation_content
 
-  return translation_text
+  return prefixes_templates + translation_text
 
 # =========================================
 # Retrieving from Wikidata
