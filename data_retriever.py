@@ -17,6 +17,62 @@ from wiktionaryparser import WiktionaryParser
 from random import randint
 
 # =========================================
+# Templates
+# =========================================
+prefixes_templates = """
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix isocat: <http://www.isocat.org/datacat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iso639: <http://lexvo.org/id/iso639-1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix : <#> .
+"""
+header_template = """
+:TERM a ontolex:LexicalEntry, ontolex:Word ;
+  ontolex:writtenRep "TERM"@LANG ;
+  ontolex:sense :TERM_sense ;
+  ontolex:denotes wd:TMID ;
+  ontolex:denotes <TRMURL> ;
+  dct:subject wd:SBJCT ; 
+  dct:language <http://lexvo.org/id/iso639-1/LANG> .
+"""
+
+reference_template = """
+:TERM_sense ontolex:reference <EXTURL> .
+"""
+
+plural_template = """
+:TERM ontolex:otherForm TERM_plural .
+:TERM_plural ontolex:writtenRep "TRMPLURAL"@LANG ;
+lexinfo:number lexinfo:plural .
+"""
+
+pos_template = """
+:TERM lexinfo:partOfSpeech lexinfo:POS ;
+"""
+
+gender_template = """
+:TERM lexinfo:gender lexinfo:GENDER .
+"""
+
+translation_template = """
+:LANG_NUM a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/LANG> ;
+  ontolex:sense :LANG_NUM_sense ;
+  ontolex:writtenRep "TERMTARGET" .
+:LANG_NUM_sense ontolex:reference <TERMTARGETURL> .
+
+:trans a vartrans:Translation;
+ vartrans:source :TERMSOURCE_sense ;
+ vartrans:target :LANG_NUM_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+"""
+
+# =========================================
 # Clean text by removing noisy characters
 # =========================================
 def clean_text(text):
@@ -65,61 +121,6 @@ def wiktionary_retriever(word_list, lang):
 # Create OntoLex triples based on the given variables
 # =========================================
 def ontolex_converter(info):
-
-  prefixes_templates = """
-  @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
-  @prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
-  @prefix isocat: <http://www.isocat.org/datacat/> .
-  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-  @prefix owl: <http://www.w3.org/2002/07/owl#> .
-  @prefix iso639: <http://lexvo.org/id/iso639-1/> .
-  @prefix dc: <http://purl.org/dc/elements/1.1/> .
-  @prefix dct: <http://purl.org/dc/terms/> .
-  @prefix wd: <http://www.wikidata.org/entity/> .
-  @prefix : <#> .
-  """
-
-  header_template = """
-  :TERM a ontolex:LexicalEntry, ontolex:Word ;
-    ontolex:writtenRep "TERM"@LANG ;
-    ontolex:sense :TERM_sense ;
-    ontolex:denotes wd:TMID ;
-    ontolex:denotes <TRMURL> ;
-    dct:subject wd:SBJCT ; 
-    dct:language <http://lexvo.org/id/iso639-1/LANG> .
-  """
-
-  reference_template = """
-  :TERM_sense ontolex:reference <EXTURL> .
-  """
-
-  plural_template = """
-  :TERM ontolex:otherForm TERM_plural .
-  :TERM_plural ontolex:writtenRep "TRMPLURAL"@LANG ;
-  lexinfo:number lexinfo:plural .
-  """
-
-  pos_template = """
-  :TERM lexinfo:partOfSpeech lexinfo:POS ;
-  """
-
-  gender_template = """
-  :TERM lexinfo:gender lexinfo:GENDER .
-  """
-
-  translation_template = """
-  :LANG_NUM a ontolex:LexicalEntry;
-    dct:language <http://lexvo.org/id/iso639-1/LANG> ;
-    ontolex:sense :LANG_NUM_sense ;
-    ontolex:writtenRep "TERMTARGET" .
-  :LANG_NUM_sense ontolex:reference <TERMTARGETURL> .
-
-  :trans a vartrans:Translation;
-   vartrans:source :TERMSOURCE_sense ;
-   vartrans:target :LANG_NUM_sense ;
-   vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
-  """
-
   header = header_template.replace("TERM", info["TERM"])
   for key in info:
     header = header.replace(key, str(info[key]))
@@ -155,7 +156,7 @@ def ontolex_converter(info):
 
       translation_text += "\n" + translation_content
 
-  return prefixes_templates + translation_text
+  return translation_text
 
 # =========================================
 # Retrieving from Wikidata
@@ -247,6 +248,7 @@ source_file = open(source_file_dir, "r")
 terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
 terms_keys = list(terms.keys())[1000:]
   # terms_keys = ["colonna"]
+output_file_name = "ICCR_dataset_1000END.txt"
 # ====
 source_file.close()
 
@@ -257,6 +259,12 @@ print("Wiktionary Data collected!")
 
 genders = {"m": "masculine", "f": "feminine", "n": "neutral"}
 
+# Writing the prefixes
+with open(output_file_name, "a") as output_file:
+  output_file.write(prefixes_templates)
+  output_file.write("\n\n")
+
+# Writing the body of the data
 counter = 0
 for term, v in Wikidata_dataset.items():
   # Adding additional information from Wiktionary entries to Wikidata collected data
@@ -282,7 +290,7 @@ for term, v in Wikidata_dataset.items():
 
   ontolex_text = ontolex_converter(Wikidata_dataset[term])
   counter += 1
-  with open("ICCR_dataset_1000END.txt", "a") as output_file:
+  with open(output_file_name, "a") as output_file:
     output_file.write(ontolex_text)
     output_file.write("\n\n")
   # except:
