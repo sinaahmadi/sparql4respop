@@ -16,7 +16,7 @@ from collections import OrderedDict
 from wiktionaryparser import WiktionaryParser
 from random import randint
 
-# =========================================
+# =========================================
 # Templates
 # =========================================
 prefixes_templates = """
@@ -29,16 +29,22 @@ prefixes_templates = """
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix : <#> .
 """
 header_template = """
-:TERM a ontolex:LexicalEntry, ontolex:Word ;
+:TERM a ontolex:LexicalEntry;
   ontolex:writtenRep "TERM"@LANG ;
+  skos:description "DESC"@LANG;
   ontolex:sense :TERM_sense ;
   ontolex:denotes wd:TMID ;
   ontolex:denotes <TRMURL> ;
   dct:subject wd:SBJCT ; 
-  dct:language <http://lexvo.org/id/iso639-1/LANG> .
+  dct:language <http://lexvo.org/id/iso639-1/LANG> ;
+"""
+pos_template = """
+:TERM lexinfo:partOfSpeech lexinfo:POS .
 """
 
 reference_template = """
@@ -49,10 +55,6 @@ plural_template = """
 :TERM ontolex:otherForm TERM_plural .
 :TERM_plural ontolex:writtenRep "TRMPLURAL"@LANG ;
 lexinfo:number lexinfo:plural .
-"""
-
-pos_template = """
-:TERM lexinfo:partOfSpeech lexinfo:POS ;
 """
 
 gender_template = """
@@ -72,12 +74,12 @@ translation_template = """
  vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
 """
 
-# =========================================
+# =========================================
 # Clean text by removing noisy characters
 # =========================================
 def clean_text(text):
   return text.replace("\n", "")
-# =========================================
+# =========================================
 # Retrieving from Wiktionary
 # =========================================
 def wiktionary_retriever(word_list, lang):
@@ -117,7 +119,7 @@ def wiktionary_retriever(word_list, lang):
       print("wiktionary err:", k)
 
   return wiktionary_dict
-# =========================================
+# =========================================
 # Create OntoLex triples based on the given variables
 # =========================================
 def ontolex_converter(info):
@@ -158,7 +160,7 @@ def ontolex_converter(info):
 
   return translation_text
 
-# =========================================
+# =========================================
 # Retrieving from Wikidata
 # =========================================
 def wikidata_retriever(terms, lang):
@@ -179,7 +181,9 @@ def wikidata_retriever(terms, lang):
   SELECT DISTINCT * WHERE {
     ?article schema:about wd:TERM_ID;
              schema:inLanguage ?lang;
+             schema:description ?desc;
              schema:name ?name .
+  FILTER(?lang in ('es', 'de', 'nl'))  
   }
   """
   Wikidata_dataset = dict()
@@ -230,25 +234,24 @@ def wikidata_retriever(terms, lang):
       pass
   return Wikidata_dataset
 
-# =========================================
+# =========================================
 # main
 # =========================================
 ## List of words
-# source_language = "english"
-# source_language = "italian"
-# source_file_dir = "SourceDatasets/100term.txt"
-# source_file = open(source_file_dir, "r")
-# terms = [t for t in source_file.read().split("\n")]
-# terms_keys = terms#[0:10]#[80:90]
+source_language = "english"
+source_file_dir = "100term.csv"
+source_file = open(source_file_dir, "r")
+terms = [t for t in source_file.read().split("\n")]
+terms_keys = terms#[0:10]#[80:90]
 # ====
 # ICCR 
-source_language = "italian"
-source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
-source_file = open(source_file_dir, "r")
-terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
-terms_keys = list(terms.keys())[1000:]
+#source_language = "italian"
+#source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
+#source_file = open(source_file_dir, "r")
+#terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
+#terms_keys = list(terms.keys())[1000:]
   # terms_keys = ["colonna"]
-output_file_name = "ICCR_dataset_1000END.txt"
+output_file_name = "test3.ttl"
 # ====
 source_file.close()
 
