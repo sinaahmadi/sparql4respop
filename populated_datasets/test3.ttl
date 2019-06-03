@@ -1,0 +1,1992 @@
+
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix isocat: <http://www.isocat.org/datacat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iso639: <http://lexvo.org/id/iso639-1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix : <#> .
+
+
+
+:discrimination a ontolex:LexicalEntry;
+  ontolex:writtenRep "discrimination"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :discrimination_sense ;
+  ontolex:denotes wd:Q169207 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:discrimination lexinfo:partOfSpeech lexinfo:noun .
+
+
+:nl_69523 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_69523_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_69523_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_69523_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_16683 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_16683_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_16683_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_16683_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_79450 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_79450_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_79450_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_79450_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_98926 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_98926_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_98926_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_98926_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:Appellanten a ontolex:LexicalEntry;
+  ontolex:writtenRep "Appellanten"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :Appellanten_sense ;
+  ontolex:denotes wd:Q33126993 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+
+:de_49015 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_49015_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_49015_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_49015_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:harassment a ontolex:LexicalEntry;
+  ontolex:writtenRep "harassment"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :harassment_sense ;
+  ontolex:denotes wd:Q3240539 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q382995 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:harassment lexinfo:partOfSpeech lexinfo:noun .
+
+
+:es_95355 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_95355_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_95355_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_95355_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix isocat: <http://www.isocat.org/datacat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iso639: <http://lexvo.org/id/iso639-1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix : <#> .
+
+
+
+:discrimination a ontolex:LexicalEntry;
+  ontolex:writtenRep "discrimination"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :discrimination_sense ;
+  ontolex:denotes wd:Q169207 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:discrimination lexinfo:partOfSpeech lexinfo:noun .
+
+
+:de_90037 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_90037_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_90037_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_90037_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_43666 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_43666_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_43666_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_43666_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_55445 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_55445_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_55445_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_55445_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_82827 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_82827_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_82827_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_82827_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89735 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89735_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_89735_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_89735_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_26413 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_26413_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_26413_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_26413_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_84657 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_84657_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_84657_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_84657_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_92071 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_92071_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_92071_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_92071_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_15220 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_15220_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_15220_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_15220_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_70206 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_70206_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_70206_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_70206_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_50666 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_50666_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_50666_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_50666_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_21179 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_21179_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_21179_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_21179_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_23629 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_23629_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_23629_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_23629_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_35412 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_35412_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_35412_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_35412_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_71948 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_71948_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_71948_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_71948_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_71068 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_71068_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_71068_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_71068_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_22873 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_22873_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_22873_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_22873_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_42980 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_42980_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_42980_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_42980_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_96314 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_96314_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_96314_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_96314_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_40756 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_40756_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_40756_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_40756_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_35289 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_35289_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_35289_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_35289_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_20932 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_20932_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_20932_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_20932_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_39073 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_39073_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_39073_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_39073_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_46815 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_46815_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_46815_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_46815_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_51351 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_51351_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_51351_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_51351_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_56255 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_56255_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_56255_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_56255_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_48034 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_48034_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_48034_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_48034_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_64199 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_64199_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_64199_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_64199_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_13506 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_13506_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_13506_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_13506_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_24022 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_24022_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_24022_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_24022_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_12411 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_12411_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_12411_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_12411_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_73748 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_73748_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_73748_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_73748_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_90640 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_90640_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_90640_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_90640_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_36235 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_36235_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_36235_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_36235_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_51523 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_51523_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_51523_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_51523_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_28604 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_28604_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_28604_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_28604_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_78170 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_78170_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_78170_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_78170_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_44471 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_44471_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_44471_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_44471_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_15171 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_15171_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_15171_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_15171_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_56506 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_56506_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_56506_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_56506_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_97027 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_97027_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_97027_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_97027_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_91745 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_91745_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_91745_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_91745_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_86595 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_86595_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_86595_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_86595_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_56881 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_56881_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_56881_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_56881_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_68903 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_68903_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_68903_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_68903_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_91609 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_91609_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_91609_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_91609_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_21509 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_21509_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_21509_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_21509_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_67433 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_67433_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_67433_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_67433_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_74666 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_74666_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_74666_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_74666_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_65900 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_65900_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_65900_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_65900_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_73532 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_73532_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_73532_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_73532_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_17578 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_17578_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_17578_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_17578_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_56695 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_56695_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_56695_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_56695_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_11919 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_11919_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_11919_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_11919_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_85622 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_85622_sense ;
+  ontolex:writtenRep "Discriminatie" .
+:nl_85622_sense ontolex:reference <https://nl.wikipedia.org/wiki/Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_85622_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:nl_27425 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/nl> ;
+  ontolex:sense :nl_27425_sense ;
+  ontolex:writtenRep "Categorie:Discriminatie" .
+:nl_27425_sense ontolex:reference <https://nl.wikinews.org/wiki/Categorie:Discriminatie> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :nl_27425_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:Appellanten a ontolex:LexicalEntry;
+  ontolex:writtenRep "Appellanten"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :Appellanten_sense ;
+  ontolex:denotes wd:Q33126993 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+
+:de_11998 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_11998_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_11998_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_11998_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_84919 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_84919_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_84919_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_84919_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_29635 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_29635_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_29635_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_29635_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_27047 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_27047_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_27047_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_27047_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_88883 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_88883_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_88883_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_88883_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_75924 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_75924_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_75924_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_75924_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_71751 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_71751_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_71751_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_71751_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89517 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89517_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_89517_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_89517_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_16663 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_16663_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_16663_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_16663_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_96374 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_96374_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_96374_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_96374_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_56741 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_56741_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_56741_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_56741_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_24324 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_24324_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_24324_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_24324_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89612 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89612_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_89612_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_89612_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_11488 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_11488_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_11488_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_11488_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_55345 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_55345_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_55345_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_55345_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_62004 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_62004_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_62004_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_62004_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_85600 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_85600_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_85600_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_85600_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_30625 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_30625_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_30625_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_30625_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_86019 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_86019_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_86019_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_86019_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_69160 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_69160_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_69160_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_69160_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_85304 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_85304_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_85304_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_85304_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89958 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89958_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_89958_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_89958_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_13736 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_13736_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_13736_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_13736_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_18754 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_18754_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_18754_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_18754_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_39804 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_39804_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_39804_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_39804_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_72358 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_72358_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_72358_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_72358_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_91574 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_91574_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_91574_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_91574_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_78126 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_78126_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_78126_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_78126_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_48951 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_48951_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_48951_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_48951_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_77628 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_77628_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_77628_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_77628_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_21116 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_21116_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_21116_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_21116_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_91704 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_91704_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_91704_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_91704_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_24148 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_24148_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_24148_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_24148_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_76889 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_76889_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_76889_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_76889_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_88596 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_88596_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_88596_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_88596_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_34964 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_34964_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_34964_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_34964_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_50174 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_50174_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_50174_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_50174_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_84715 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_84715_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_84715_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_84715_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_57099 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_57099_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_57099_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_57099_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_66775 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_66775_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_66775_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_66775_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_39520 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_39520_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_39520_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_39520_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_60151 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_60151_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_60151_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_60151_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_12456 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_12456_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_12456_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_12456_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_73138 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_73138_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_73138_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_73138_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_22776 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_22776_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_22776_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_22776_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_27213 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_27213_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_27213_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_27213_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_47707 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_47707_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_47707_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_47707_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_29875 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_29875_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_29875_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_29875_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_96420 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_96420_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_96420_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_96420_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_12978 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_12978_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_12978_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_12978_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_69148 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_69148_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_69148_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_69148_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_37509 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_37509_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_37509_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_37509_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_53081 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_53081_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_53081_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_53081_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_32009 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_32009_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_32009_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_32009_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_14275 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_14275_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_14275_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_14275_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_27459 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_27459_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_27459_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_27459_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_95802 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_95802_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_95802_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_95802_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_17699 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_17699_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_17699_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_17699_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_96673 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_96673_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_96673_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_96673_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_33057 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_33057_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_33057_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_33057_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_21587 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_21587_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_21587_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_21587_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_34314 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_34314_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_34314_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_34314_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_26166 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_26166_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_26166_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_26166_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_54437 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_54437_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_54437_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_54437_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89378 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89378_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_89378_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_89378_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_99920 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_99920_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_99920_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_99920_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_37935 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_37935_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_37935_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_37935_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_24706 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_24706_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_24706_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_24706_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_54386 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_54386_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_54386_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_54386_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_76209 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_76209_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_76209_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_76209_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_29619 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_29619_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_29619_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_29619_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_21614 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_21614_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_21614_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_21614_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_21948 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_21948_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_21948_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_21948_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_44117 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_44117_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_44117_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_44117_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_19543 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_19543_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_19543_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_19543_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_34199 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_34199_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_34199_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_34199_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_63267 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_63267_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_63267_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_63267_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_89674 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_89674_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_89674_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_89674_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_47868 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_47868_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_47868_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_47868_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_84048 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_84048_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_84048_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_84048_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:de_67841 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_67841_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_67841_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_67841_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:harassment a ontolex:LexicalEntry;
+  ontolex:writtenRep "harassment"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :harassment_sense ;
+  ontolex:denotes wd:Q3240539 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q382995 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:harassment lexinfo:partOfSpeech lexinfo:noun .
+
+
+:es_80491 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_80491_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_80491_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_80491_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_12065 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_12065_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_12065_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_12065_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_42019 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_42019_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_42019_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_42019_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_56628 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_56628_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_56628_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_56628_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_73104 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_73104_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_73104_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_73104_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_87751 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_87751_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_87751_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_87751_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix isocat: <http://www.isocat.org/datacat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iso639: <http://lexvo.org/id/iso639-1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix : <#> .
+
+
+
+:discrimination a ontolex:LexicalEntry;
+  ontolex:writtenRep "discrimination"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :discrimination_sense ;
+  ontolex:denotes wd:Q169207 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:discrimination lexinfo:partOfSpeech lexinfo:noun .
+
+
+:de_98441 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_98441_sense ;
+  ontolex:writtenRep "Diskriminierung" .
+:de_98441_sense ontolex:reference <https://de.wikipedia.org/wiki/Diskriminierung> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :de_98441_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+:es_93704 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_93704_sense ;
+  ontolex:writtenRep "Discriminación" .
+:es_93704_sense ontolex:reference <https://es.wikipedia.org/wiki/Discriminaci%C3%B3n> .
+
+:trans a vartrans:Translation;
+ vartrans:source :discrimination_sense ;
+ vartrans:target :es_93704_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:Appellanten a ontolex:LexicalEntry;
+  ontolex:writtenRep "Appellanten"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :Appellanten_sense ;
+  ontolex:denotes wd:Q33126993 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q12271 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+
+:de_36269 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/de> ;
+  ontolex:sense :de_36269_sense ;
+  ontolex:writtenRep "Appellanten" .
+:de_36269_sense ontolex:reference <https://de.wikipedia.org/wiki/Appellanten> .
+
+:trans a vartrans:Translation;
+ vartrans:source :Appellanten_sense ;
+ vartrans:target :de_36269_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+
+
+:harassment a ontolex:LexicalEntry;
+  ontolex:writtenRep "harassment"@en ;
+  skos:description "DESC"@en;
+  ontolex:sense :harassment_sense ;
+  ontolex:denotes wd:Q3240539 ;
+  ontolex:denotes <> ;
+  dct:subject wd:Q382995 ; 
+  dct:language <http://lexvo.org/id/iso639-1/en> ;
+
+:harassment lexinfo:partOfSpeech lexinfo:noun .
+
+
+:es_82038 a ontolex:LexicalEntry;
+  dct:language <http://lexvo.org/id/iso639-1/es> ;
+  ontolex:sense :es_82038_sense ;
+  ontolex:writtenRep "Hostigamiento" .
+:es_82038_sense ontolex:reference <https://es.wikipedia.org/wiki/Hostigamiento> .
+
+:trans a vartrans:Translation;
+ vartrans:source :harassment_sense ;
+ vartrans:target :es_82038_sense ;
+ vartrans:category <http://purl.org/net/translation-categories#directEquivalent>.
+
+

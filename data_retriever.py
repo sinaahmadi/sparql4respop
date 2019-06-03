@@ -179,13 +179,15 @@ def wikidata_retriever(terms, lang):
 
   original_query = """
   SELECT DISTINCT * WHERE {
-    ?article schema:about wd:TERM_ID;
-             schema:inLanguage ?lang;
-             schema:description ?desc;
-             schema:name ?name .
-  FILTER(?lang in ('es', 'de', 'nl'))  
-  }
+  ?article schema:about wd:TERM_ID;
+           schema:inLanguage ?lang;
+           schema:name ?name.
+  wd:TERM_ID schema:description ?desc.
+  FILTER(?lang in ('es', 'de', 'nl', 'en'))  
+  FILTER (lang(?name) = lang(?desc))
+  } ORDER BY ?lang
   """
+
   Wikidata_dataset = dict()
   subjects = {"architecture":"Q12271", "archeology": "Q10855079", "law" : "Q7748",  "legal science" : "Q382995", "social issue" : "Q1920219", "jurisprudence" : "Q4932206", "rule" : "Q1151067", "Economy" : "Q159810", "Economics" : "Q8134", "labour law" : "Q628967", "human action" : "Q451967", "legal concept" : "Q2135465"}
   ""
@@ -209,8 +211,10 @@ def wikidata_retriever(terms, lang):
 
           if True in retrieved_subjects.values():
             query = original_query.replace("TERM_ID", item_id)
+            print(query)
             r = requests.get(url, params = {'format': 'json', 'query': query})
             data = r.json()
+            print(data)
 
             retrieved = list()
             for item in data['results']['bindings']:
@@ -235,74 +239,78 @@ def wikidata_retriever(terms, lang):
   return Wikidata_dataset
 
 # =========================================
-# main
+# Run
 # =========================================
 ## List of words
-source_language = "english"
-source_file_dir = "100term.csv"
-source_file = open(source_file_dir, "r")
-terms = [t for t in source_file.read().split("\n")]
-terms_keys = terms#[0:10]#[80:90]
-# ====
-# ICCR 
-#source_language = "italian"
-#source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
-#source_file = open(source_file_dir, "r")
-#terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
-#terms_keys = list(terms.keys())[1000:]
-  # terms_keys = ["colonna"]
-output_file_name = "test3.ttl"
-# ====
-source_file.close()
+def run():
+  source_language = "english"
+  source_file_dir = "original_datasets/100term.csv"
+  source_file = open(source_file_dir, "r")
+  terms = [t for t in source_file.read().split("\n")]
+  terms_keys = terms[0:10]#[80:90]
+  # ====
+  # ICCR 
+  #source_language = "italian"
+  #source_file_dir = "SourceDatasets/dataset-thesaurus_definizione_extracted.tsv"
+  #source_file = open(source_file_dir, "r")
+  #terms = {t.split("\t")[1].replace("\"", "").replace("@it", ""):t.split("\t")[0] for t in source_file.read().split("\n")}
+  #terms_keys = list(terms.keys())[1000:]
+    # terms_keys = ["colonna"]
+  output_file_name = "populated_datasets/test3.ttl"
+  # ====
+  source_file.close()
 
-Wikidata_dataset = wikidata_retriever(terms_keys, lang=source_language[0:2])
-print("Wikidata Data collected!")
-Wiktionary_dataset = wiktionary_retriever(terms_keys, lang=source_language)
-print("Wiktionary Data collected!")
+  Wikidata_dataset = wikidata_retriever(terms_keys, lang=source_language[0:2])
+  print("Wikidata Data collected!")
+  Wiktionary_dataset = wiktionary_retriever(terms_keys, lang=source_language)
+  print("Wiktionary Data collected!")
 
-genders = {"m": "masculine", "f": "feminine", "n": "neutral"}
+  genders = {"m": "masculine", "f": "feminine", "n": "neutral"}
 
-# Writing the prefixes
-with open(output_file_name, "a") as output_file:
-  output_file.write(prefixes_templates)
-  output_file.write("\n\n")
-
-# Writing the body of the data
-counter = 0
-for term, v in Wikidata_dataset.items():
-  # Adding additional information from Wiktionary entries to Wikidata collected data
-  Wikidata_dataset[term]["TERM"] = term
-  Wikidata_dataset[term]["EXTURL"] = ""
-  Wikidata_dataset[term]["POS"] = ""
-  Wikidata_dataset[term]["GENDER"] = ""
-  Wikidata_dataset[term]["TRMPLURAL"] = ""
-
-  # ICCR {Term: URI} dataset
-  # Wikidata_dataset[term]["EXTURL"] = terms[term]
-  Wikidata_dataset[term]["EXTURL"] = ""
-
-  if len(Wiktionary_dataset[term]) != 0 and term != "":
-    if len(Wiktionary_dataset[term][1]) > 2 and len(Wiktionary_dataset[term][1]) < 10:
-      Wikidata_dataset[term]["POS"] = Wiktionary_dataset[term][1]
-    # standarize gender
-    if Wiktionary_dataset[term][2] == 1 :
-      Wikidata_dataset[term]["GENDER"] = genders[Wiktionary_dataset[term][2]]
-
-    if len(Wikidata_dataset[term]["TRMPLURAL"]) != 0:
-      Wikidata_dataset[term]["TRMPLURAL"] = Wiktionary_dataset[term][3]
-
-  ontolex_text = ontolex_converter(Wikidata_dataset[term])
-  counter += 1
+  # Writing the prefixes
   with open(output_file_name, "a") as output_file:
-    output_file.write(ontolex_text)
+    output_file.write(prefixes_templates)
     output_file.write("\n\n")
-  # except:
-  #   pass
 
-# print(ontolex_text)
+  # Writing the body of the data
+  counter = 0
+  for term, v in Wikidata_dataset.items():
+    # Adding additional information from Wiktionary entries to Wikidata collected data
+    Wikidata_dataset[term]["TERM"] = term
+    Wikidata_dataset[term]["EXTURL"] = ""
+    Wikidata_dataset[term]["POS"] = ""
+    Wikidata_dataset[term]["GENDER"] = ""
+    Wikidata_dataset[term]["TRMPLURAL"] = ""
 
-print(counter)
+    # ICCR {Term: URI} dataset
+    # Wikidata_dataset[term]["EXTURL"] = terms[term]
+    Wikidata_dataset[term]["EXTURL"] = ""
 
+    if len(Wiktionary_dataset[term]) != 0 and term != "":
+      if len(Wiktionary_dataset[term][1]) > 2 and len(Wiktionary_dataset[term][1]) < 10:
+        Wikidata_dataset[term]["POS"] = Wiktionary_dataset[term][1]
+      # standarize gender
+      if Wiktionary_dataset[term][2] == 1 :
+        Wikidata_dataset[term]["GENDER"] = genders[Wiktionary_dataset[term][2]]
 
+      if len(Wikidata_dataset[term]["TRMPLURAL"]) != 0:
+        Wikidata_dataset[term]["TRMPLURAL"] = Wiktionary_dataset[term][3]
+
+    ontolex_text = ontolex_converter(Wikidata_dataset[term])
+    counter += 1
+    with open(output_file_name, "a") as output_file:
+      output_file.write(ontolex_text)
+      output_file.write("\n\n")
+    # except:
+    #   pass
+
+  # print(ontolex_text)
+
+  print(counter)
+
+# =========================================
+# main
+# =========================================
+# run()
 
 
